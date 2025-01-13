@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: cadetblue;
+}
+
+.container {
+  margin: 100px auto;
+  width: 600px;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.card-sporty h1 {
+  color: red;
+}
+
+.card-casual h1 {
+  color: blue;
+}
+
+.card-formal h1 {
+  color: brown;
+}
+
+.card-sporty button {
+  background-color: red;
+}
+
+.card-casual button {
+  background-color: blue;
+}
+
+.card-formal button {
+  background-color: brown;
+}
+
+.card-sporty {
+  background-image: url(./Images/sporty.png);
+}
+
+.card-casual {
+  background-image: url(./Images/casual.png);
+}
+
+.card-formal {
+  background-image: url(./Images/formal.png);
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.card button {
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
